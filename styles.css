@@ -1,1 +1,25 @@
 body{background-color: aqua;}
+
+div {
+    background-color: red;
+}
+
+section {
+    background-color: azure;
+}
+
+img {
+    height: 250px;
+
+}
+
+a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+li {
+    font-size: small;
+    
+
+}
