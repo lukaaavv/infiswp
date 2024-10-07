@@ -12,7 +12,9 @@ img {
     height: 250px;
 
 }
-
+.container {
+    background: blue;
+}
 a:hover {
     color: black;
     cursor: pointer;
