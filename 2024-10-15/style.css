@@ -10,12 +10,12 @@ body {
     margin-left: 7%;
     margin-right: 45%;
     margin-top: 0px;
-    p
+    
 }
 
 header {
-    background-color: rgb(120, 121, 192);
-    text-align: center;
+    background-color: (120, 121, 192);
+    text-align:center;
     display: flex;
     justify-content: space-between;
     height: 25px;
@@ -30,7 +30,7 @@ header a {
 
 }
 
-a:hover {
+.test:hover {
     color: rgb(180, 180, 180);
     text-decoration: underline;
 }

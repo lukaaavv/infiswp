@@ -1,0 +1,210 @@
+:root {
+    --color-primary: #00ad6a;
+    --color-secondary: #eafaf1;
+    --color-accent: #1fe374;
+    --color-dark: #080c16;
+    --color-light: #d6dae5;
+    --color-background: #fcfcfc;
+}
+
+:root {
+    --color-primary: #00ad6a;
+    --color-secondary: #eafaf1;
+    --color-accent: #1fe374;
+    --color-dark: #080c16;
+    --color-light: #d6dae5;
+    --color-background: ;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color: #e6f2e6;
+    color: #333;
+}
+
+.main, .faq, .footer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.headpulse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #f4fff4;
+}
+
+.headpulse .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #66cc66;
+}
+
+.headpulse .nav a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.headpulse .nav a.sign-up {
+    background-color: #66cc66;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+
+.main h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.main p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.plan {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.plan h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #66cc66;
+}
+
+.plan .price {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.plan button {
+    background-color: #66cc66;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.features .text, .features .test {
+    width: 45%;
+}
+
+.features .text p {
+    font-size: 18px;
+    color: #333;
+}
+
+.features .test {
+    background-color: #f4fff4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+.features .test small {
+    display: block;
+    margin-top: 10px;
+    color: #666;
+}
+
+
+.faq {
+    background-color: #f4fff4;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.faq h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.question p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 5px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #f4fff4;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer p {
+    margin-bottom: 20px;
+}
+
+.footer h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #66cc66;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
