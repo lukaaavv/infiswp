@@ -1,7 +1,7 @@
 
 import { assert } from "@std/assert";
 
-const dataPath = "nmap-datenfiles";
+const dataPath = "../2024-11-19/nmap-datenfiles";
 const outputPath = "./output.txt";
 
 function parseDate(dateStr: string): Date {
